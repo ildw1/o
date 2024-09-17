@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+
+
+
+
+#hero {
+	padding: 5%;
+	background-image: url( "../img/slider-glob.png");
+	background-color: var(--color-negro);
+	font-size: 100%;
+}
+
+h1{
+	font-size: 380%;
+}
+
+.white{
+	color: #fff;
+}
+
+.yellow{
+	color: var(--color-naranja);
+}
+
+
+
+.back{
+	padding: 5%;
+	
+	background-color: var(--color-negro);
+	font-size: 100%;
+}
+
+.row{
+	padding-top: 3%;
+		padding-bottom: 3%;
+}
+#boton{
+	border-radius: 45%;
+	
+}
+
+.Hamburguesas{
+	font-weight: 500;
+	color: black;
+	text-align: center;
+}
+
+.lorem{
+	color: gray;
+	text-align: center;
+}
+
+.quick{
+	font-size: 15px;
+	font-weight: 700;
+	color: var(--color-naranja);
+	text-align: center;
+	margin: 0;
+}
+
+.popular{
+	margin: 0;
+	font-size: 50px;
+	font-weight: 700;
+	color: var(--color-titulos);
+	text-align: center;
+}
+
+.btn1{
+	background-color:var(--color-naranja);
+	border-radius: 20px;
+	border : none;
+	text-align: center;
+	color: var(--color-negro);
+	width: 200px;
+	justify-content: center;
+	align-items: center; 
+	display:flex;
+	margin-left: 20%;
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.owl-carousel .owl-dot.active {
+    background-color: var(--color-naranja);
+    border: 0 !important;
+}
+
+.item{
+	text-align: center;
+	align-items: center;
+}
+
+#Popular Goods{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
